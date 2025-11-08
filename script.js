@@ -4,7 +4,7 @@ async function sendCommand(command) {
     return;
   }
 
-  const backendURL = "https://your-backend.vercel.app/roblox-command"; // replace with your backend endpoint
+  const backendURL = "https://nxs-one.vercel.app/api/roblox-command"; // replace with your backend endpoint
 
   const response = await fetch(backendURL, {
     method: "POST",
